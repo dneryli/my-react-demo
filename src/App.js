@@ -1,15 +1,13 @@
 import React from 'react';
-import Parent from './Parent';
+import Person from './Person';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Parent />
-     
+      <Person />
     </div>
     
   );
 }
-
 export default App;
