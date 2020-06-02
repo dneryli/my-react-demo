@@ -11,7 +11,7 @@
 node -v
 npm -v
 ```
-### 3.安装create-react-app
+### 3.安装create-react-app0
 ```
 npm install create-react-app
 ```
@@ -64,19 +64,19 @@ function App() {
   return (
     <div className="App">
       <Person />
-    </div>
-    
+    </div> 
   );
 }
 ```
 2. es6方式创建组建
 ```
 class Person extends Component { 
-    render() { 
-        return <div>
-            <p>姓名</p>
-            <p>年龄</p>
-        </div>
+  render() { 
+    return 
+      <div>
+        <p>姓名</p>
+        <p>年龄</p>
+      </div>
     }
 }
 ```
