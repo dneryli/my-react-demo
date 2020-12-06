@@ -124,5 +124,5 @@ shouldComponentUpdate(nextProps,nextState)
 componentWillUpdate(nextProps,nextState)
 shouldComponentUpdate返回true以后，组件进入重新渲染的流程，进入componentWillUpdate,这里同样可以拿到nextProps和nextState
 
-componentWillUpdate (nextProps,nextState)
-shouldComponentUpdate返回true以后，组件进入重新渲染的流程，进入componentWillUpdate,这里同样可以拿到nextProps和nextState
+componentDidUpdate(prevProps,prevState)
+组件更新完毕后，react只会在第一次初始化成功会进入componentDidmount,之后每次重新渲染后都会进入这个生命周期，这里可以拿到prevProps和prevState，即更新前的props和state。
